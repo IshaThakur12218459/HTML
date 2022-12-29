@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>Pseudo class</title>
+<style>
+a{
+margin-left:12px;
+}
+a:link{
+background-color:red;
+color:white;
+padding:12px;
+}
+a:visited{
+background-color:blue;
+color:white;
+padding:12px;
+}
+a:hover{
+background-color:orange;
+font-size:24px;
+color:white;
+padding:12px;
+}
+a:active{
+background-color:yellow;
+color:white;
+font-size:20px;
+padding:12px;
+}
+p:nth-child(even){
+color:red;
+}
+p::before{
+content:"Commented";
+background-color:steelblue;
+color:white;
+}
+p::first-letter{
+color:aqua;
+font-size:40px;
+}
+</style>
+</head>
+<body>
+<p>Hello class</p>
+<a href ="#">Home</a>
+<a href ="#">About</a>
+<a href ="#">Contact</a>
+
+<div>
+<p>Hello class para1 </p>
+<p>Hello class para2 </p>
+<p>Hello class para3 </p>
+<p>Hello class para4 </p>
+</div>
+</body>
+</html>
